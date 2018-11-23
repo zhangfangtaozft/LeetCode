@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F8E775B021A6953000C20B49 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F8E775AF21A6953000C20B49 /* main.c */; };
+		F8EB694B21A7CEEE0003D43D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EB694A21A7CEEE0003D43D /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F8E775AA21A6953000C20B49 /* CopyFiles */ = {
+		F8EB694521A7CEEE0003D43D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F8E775AC21A6953000C20B49 /* TwoSum-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "TwoSum-C"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8E775AF21A6953000C20B49 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F8EB694721A7CEEE0003D43D /* Add Two Numbers - Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Add Two Numbers - Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8EB694A21A7CEEE0003D43D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F8E775A921A6953000C20B49 /* Frameworks */ = {
+		F8EB694421A7CEEE0003D43D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,94 +38,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F8E775A321A6953000C20B49 = {
+		F8EB693E21A7CEEE0003D43D = {
 			isa = PBXGroup;
 			children = (
-				F8E775AE21A6953000C20B49 /* TwoSum-C */,
-				F8E775AD21A6953000C20B49 /* Products */,
+				F8EB694921A7CEEE0003D43D /* Add Two Numbers - Swift */,
+				F8EB694821A7CEEE0003D43D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F8E775AD21A6953000C20B49 /* Products */ = {
+		F8EB694821A7CEEE0003D43D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F8E775AC21A6953000C20B49 /* TwoSum-C */,
+				F8EB694721A7CEEE0003D43D /* Add Two Numbers - Swift */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F8E775AE21A6953000C20B49 /* TwoSum-C */ = {
+		F8EB694921A7CEEE0003D43D /* Add Two Numbers - Swift */ = {
 			isa = PBXGroup;
 			children = (
-				F8E775AF21A6953000C20B49 /* main.c */,
+				F8EB694A21A7CEEE0003D43D /* main.swift */,
 			);
-			path = "TwoSum-C";
+			path = "Add Two Numbers - Swift";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F8E775AB21A6953000C20B49 /* TwoSum-C */ = {
+		F8EB694621A7CEEE0003D43D /* Add Two Numbers - Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8E775B321A6953000C20B49 /* Build configuration list for PBXNativeTarget "TwoSum-C" */;
+			buildConfigurationList = F8EB694E21A7CEEE0003D43D /* Build configuration list for PBXNativeTarget "Add Two Numbers - Swift" */;
 			buildPhases = (
-				F8E775A821A6953000C20B49 /* Sources */,
-				F8E775A921A6953000C20B49 /* Frameworks */,
-				F8E775AA21A6953000C20B49 /* CopyFiles */,
+				F8EB694321A7CEEE0003D43D /* Sources */,
+				F8EB694421A7CEEE0003D43D /* Frameworks */,
+				F8EB694521A7CEEE0003D43D /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "TwoSum-C";
-			productName = "TwoSum-C";
-			productReference = F8E775AC21A6953000C20B49 /* TwoSum-C */;
+			name = "Add Two Numbers - Swift";
+			productName = "Add Two Numbers - Swift";
+			productReference = F8EB694721A7CEEE0003D43D /* Add Two Numbers - Swift */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F8E775A421A6953000C20B49 /* Project object */ = {
+		F8EB693F21A7CEEE0003D43D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Frank.zhang;
 				TargetAttributes = {
-					F8E775AB21A6953000C20B49 = {
+					F8EB694621A7CEEE0003D43D = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = F8E775A721A6953000C20B49 /* Build configuration list for PBXProject "TwoSum-C" */;
+			buildConfigurationList = F8EB694221A7CEEE0003D43D /* Build configuration list for PBXProject "Add Two Numbers - Swift" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = F8E775A321A6953000C20B49;
-			productRefGroup = F8E775AD21A6953000C20B49 /* Products */;
+			mainGroup = F8EB693E21A7CEEE0003D43D;
+			productRefGroup = F8EB694821A7CEEE0003D43D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F8E775AB21A6953000C20B49 /* TwoSum-C */,
+				F8EB694621A7CEEE0003D43D /* Add Two Numbers - Swift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F8E775A821A6953000C20B49 /* Sources */ = {
+		F8EB694321A7CEEE0003D43D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8E775B021A6953000C20B49 /* main.c in Sources */,
+				F8EB694B21A7CEEE0003D43D /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F8E775B121A6953000C20B49 /* Debug */ = {
+		F8EB694C21A7CEEE0003D43D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -181,10 +182,12 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		F8E775B221A6953000C20B49 /* Release */ = {
+		F8EB694D21A7CEEE0003D43D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -233,49 +236,53 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
-		F8E775B421A6953000C20B49 /* Debug */ = {
+		F8EB694F21A7CEEE0003D43D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6BWWY5VW6C;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
-		F8E775B521A6953000C20B49 /* Release */ = {
+		F8EB695021A7CEEE0003D43D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6BWWY5VW6C;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F8E775A721A6953000C20B49 /* Build configuration list for PBXProject "TwoSum-C" */ = {
+		F8EB694221A7CEEE0003D43D /* Build configuration list for PBXProject "Add Two Numbers - Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F8E775B121A6953000C20B49 /* Debug */,
-				F8E775B221A6953000C20B49 /* Release */,
+				F8EB694C21A7CEEE0003D43D /* Debug */,
+				F8EB694D21A7CEEE0003D43D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8E775B321A6953000C20B49 /* Build configuration list for PBXNativeTarget "TwoSum-C" */ = {
+		F8EB694E21A7CEEE0003D43D /* Build configuration list for PBXNativeTarget "Add Two Numbers - Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F8E775B421A6953000C20B49 /* Debug */,
-				F8E775B521A6953000C20B49 /* Release */,
+				F8EB694F21A7CEEE0003D43D /* Debug */,
+				F8EB695021A7CEEE0003D43D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F8E775A421A6953000C20B49 /* Project object */;
+	rootObject = F8EB693F21A7CEEE0003D43D /* Project object */;
 }

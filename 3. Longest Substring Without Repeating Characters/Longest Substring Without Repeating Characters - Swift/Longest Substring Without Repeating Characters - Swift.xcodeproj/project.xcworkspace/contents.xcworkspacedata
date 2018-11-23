@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TwoSum-C.xcodeproj">
+      location = "self:Longest Substring Without Repeating Characters - Swift.xcodeproj">
    </FileRef>
 </Workspace>
